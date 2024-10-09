@@ -1,0 +1,75 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ /* Category title styling */
+.category-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 30px 0 20px;
+    color: #333;
+    text-align: left;
+}
+
+/* News card container */
+.news-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
+    margin-bottom: 40px;
+}
+
+/* Individual news card */
+.news-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 15px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.news-card:hover {
+    transform: scale(1.05);
+}
+
+/* News image */
+.news-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* News content */
+.news-content {
+    text-align: left;
+}
+
+/* News title */
+.news-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* News description */
+.news-description {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+/* News link */
+.news-link {
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.news-link:hover {
+    text-decoration: underline;
+}
